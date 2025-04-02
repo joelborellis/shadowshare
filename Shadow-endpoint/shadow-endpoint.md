@@ -1,13 +1,3 @@
-Great, I’ll dive into the Azure Function App repo and prepare a markdown report covering:
-
-- Endpoint routes and how they work
-- Request parameters and formats
-- Response structure
-- Example calls using `curl`, `fetch`, and C#/ASP.NET
-
-This will all be geared toward helping a frontend dev integrate with the API in a dev environment.
-I'll let you know once the report is ready for review.
-
 # Shadow FastAPI Chat API Integration Guide
 
 This guide explains how to integrate a frontend chat UI with the **Shadow** Azure Function App API (a FastAPI-based function) that serves as the chat backend. It covers available endpoints, request/response formats, and example calls from various environments. The function app is intended for development use (running locally or in a test environment), so it currently allows open access (no auth) and wide CORS for convenience.

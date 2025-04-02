@@ -1,7 +1,3 @@
-Perfect, I’ll review the GitHub repository for the Azure Function App at https://github.com/joelborellis/shadow-fastapi-meg, and generate a detailed markdown report. This will include endpoint routes, request and response structures, and code examples using `curl`, JavaScript `fetch`, and C#/ASP.NET for frontend integration.
-
-I’ll let you know as soon as the report is ready.
-
 # Shadow MEG Chat API Documentation
 
 This document describes the **Shadow MEG Chat API**, an Azure Function App running a FastAPI backend for a chat-based assistant. Frontend developers can use this API to send user messages and receive responses from the AI assistant in a conversational thread. All endpoints accept and return JSON data, and CORS is enabled for all domains by default ([github.com](https://github.com/joelborellis/shadow-fastapi-meg/raw/refs/heads/main/ShadowFunction/__init__.py#:~:text=tools,Configure)), making it easy to call these APIs from a web client. No authentication keys are required (the function is deployed with anonymous access) ([shadow-fastapi-meg/function_app.py at main · joelborellis/shadow-fastapi-meg · GitHub](https://github.com/joelborellis/shadow-fastapi-meg/blob/main/function_app.py#:~:text=from%20ShadowFunction%20import%20app%20as,fastapi_app)).
