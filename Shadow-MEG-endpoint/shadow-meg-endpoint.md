@@ -10,6 +10,9 @@ This document describes the **Shadow MEG Chat API**, an Azure Function App runni
 - **Auth:** None required (function allows anonymous access ([shadow-fastapi-meg/function_app.py at main · joelborellis/shadow-fastapi-meg · GitHub](https://github.com/joelborellis/shadow-fastapi-meg/blob/main/function_app.py#:~:text=from%20ShadowFunction%20import%20app%20as,fastapi_app))).
 - **CORS:** All origins allowed (you can call this endpoint from any domain or port) ([github.com](https://github.com/joelborellis/shadow-fastapi-meg/raw/refs/heads/main/ShadowFunction/__init__.py#:~:text=tools,Configure)).
 
+Azure endpoint URL
+- https://shadow-endpoint-meg-jxe7jdce22roq-function-app.azurewebsites.net
+
 ### Request Format (JSON Body)
 
 The request must be a JSON object with the following fields ([github.com](https://github.com/joelborellis/shadow-fastapi-meg/raw/refs/heads/main/ShadowFunction/__init__.py#:~:text=module,if%20they%20are)):

@@ -17,6 +17,9 @@ Both endpoints are defined with anonymous access (no API key or auth token neede
 
 *(If deployed to Azure, the base domain would differ, but the route paths remain the same since `routePrefix` is disabled.)*
 
+Azure endpoint URL
+- https://shadow-endpoint-k33pqykzy3hqo-function-app.azurewebsites.net
+
 ## Request Structure
 
 All endpoints expect requests to be JSON formatted with content type `application/json`. The JSON body should include the following fields ([shadow-fastapi/ShadowFunction/__init__.py at main · joelborellis/shadow-fastapi · GitHub](https://github.com/joelborellis/shadow-fastapi/blob/main/ShadowFunction/__init__.py#:~:text=class%20ShadowRequest)):
